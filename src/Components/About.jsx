@@ -52,8 +52,8 @@ const About = () => {
     <section className="padding" id="about">
       <img className="background" src={image} alt={imageAltText} />
       <div
+        className="card"
         style={{
-          backgroundColor: "white",
           width: "50%",
           padding: "4rem",
           margin: "3rem auto",
